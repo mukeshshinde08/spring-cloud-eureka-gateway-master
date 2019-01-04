@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    config:
+      uri: http://localhost:8088
+      username: username
+      password: 951753
+      
+#eureka:
+#  client:
+#    register-with-eureka: true
+#    fetch-registry: true   
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/   
+#  instance:
+#      hostname: localhost  
